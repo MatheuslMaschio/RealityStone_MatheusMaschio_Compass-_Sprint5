@@ -12,7 +12,7 @@
 
     Dado('efetuou o login com o {string} e {string}') do |email, senha|
         @Login_page = Pages::Login.new
-        @Login_page.login(email,senha)
+        @Login_page.login(email, senha)
         @pagamento_page.btn_to_checkout_number_three.click
         @pagamento_page.btn_terms_of_service.click
         @pagamento_page.btn_to_checkout_number_two.click

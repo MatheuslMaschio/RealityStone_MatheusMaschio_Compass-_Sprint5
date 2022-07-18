@@ -1,5 +1,6 @@
 #language: pt
 
+@regression
 @pagamento_produto
 Funcionalidade: pagamento
     Como usuário do sistema
@@ -16,7 +17,9 @@ Esquema do Cenário: validar pagamento
 Quando efetuou o login com o '<email>' e '<senha>'
 E o usuário selecionar a forma de pagamento Transferencia Bancaria 
 Então uma mensagem deve ser exibida msg de Transferencia Bancaria
-
+Exemplos:
+ |email                         |senha |
+ |delimamaschiomatheus@gmail.com|123456|
 
 @pagamento_cheque
 Esquema do Cenário: validar pagamento por cheque 
