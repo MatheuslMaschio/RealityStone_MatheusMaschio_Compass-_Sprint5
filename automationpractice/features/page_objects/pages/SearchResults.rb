@@ -1,5 +1,5 @@
-require_relative '../sections/header'
-require_relative '../sections/product'
+require_relative '../sections/header_sections'
+require_relative '../sections/product_sections'
 
 module Pages
     class SearchResults < SitePrism::Page

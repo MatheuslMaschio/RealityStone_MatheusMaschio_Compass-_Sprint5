@@ -1,4 +1,4 @@
-require_relative '../sections/header'
+require_relative '../sections/header_sections'
 
 module Pages
     class Home < SitePrism::Page

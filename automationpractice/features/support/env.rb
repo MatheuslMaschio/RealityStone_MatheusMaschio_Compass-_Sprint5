@@ -6,6 +6,7 @@ require 'selenium-webdriver'
 require 'rspec'
 require "pry"
 require 'faker'
+require 'i18n'
 
 ENVIRONMENT = ENV['ENVIRONMENT']
 ENVIRONMENT_CONFIG = YAML.load_file(File.dirname(__FILE__) + "/environment/#{ENVIRONMENT}.yml")

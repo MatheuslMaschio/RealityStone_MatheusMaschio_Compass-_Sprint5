@@ -11,3 +11,4 @@ Quando('acessar a página do produto') do
   Então('deverá alterar a imagem apresentada na Pradeep') do
     expect(@product_page.main_image['src']).not_to eql @image_before
   end
+

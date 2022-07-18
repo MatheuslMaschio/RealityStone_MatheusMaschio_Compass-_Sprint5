@@ -18,7 +18,6 @@ Esquema do Cenário: validar a autenticação de usuário
 
     Exemplos:
     |email                         |senha |msg                                    | 
-    |delimamaschiomatheus@gmail.com|123456|                                       |    
     |                              |123456|An email address required.             | 
     |delimamaschiomatheus@gmail.com|      |Password is required.                  |
     |1111@teste.com                |      |Password is required.                  |
