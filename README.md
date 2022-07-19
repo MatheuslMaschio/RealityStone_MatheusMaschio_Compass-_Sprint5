@@ -39,7 +39,7 @@ Git: Para baixar a versão mais recente do Git entre no site https://git-scm.com
 
 
 # ♦️ Git
-* Clone o repositorio usando o comando git clone https://github.com/MatheuslMaschio/RealityStone_MatheusMaschio_Compass-_Sprint5.git - Para executar o comando de forma correta abra a pasta que deseja salvar os arquivos e abra o prompt de comando na mesma e execute o comando.
+Clone o repositorio usando o comando git clone https://github.com/MatheuslMaschio/RealityStone_MatheusMaschio_Compass-_Sprint5.git - Para executar o comando de forma correta abra a pasta que deseja salvar os arquivos e abra o prompt de comando na mesma e execute o comando.
 
 Outros comandos que talvez ajudem:
 git init - Para iniciar um repositório git local na pasta selecionada.
