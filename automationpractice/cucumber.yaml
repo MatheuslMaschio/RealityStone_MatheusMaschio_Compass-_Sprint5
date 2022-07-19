@@ -1,11 +1,13 @@
-default: -p prd 
+default: -p prd -p html
 default_hml: -p hml -p chrome
 
 #ENVIRONMENT
 hml: ENVIRONMENT="hml"
 prd: ENVIRONMENT="prd"
 
-# Browsers
 
 # Visual Mode
 headless: HEADLESS="true"
+
+#reports
+html: --format html --out=reports/report.html
