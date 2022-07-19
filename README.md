@@ -12,11 +12,11 @@ Aqui estarão presentes arquivos de exercícios feitos na sprint 5.
 # ♦️ Instalação
 Git: Para baixar a versão mais recente do Git entre no site https://git-scm.com/downloads
 
-*Ruby: Para baixar a versão mais recente do Ruby entre no site https://rubyinstaller.org/downloads/
+* Ruby: Para baixar a versão mais recente do Ruby entre no site https://rubyinstaller.org/downloads/
 
-*Rspec: A instalação pode ser feita através do comando:  "gem install rspec"
+* Rspec: A instalação pode ser feita através do comando:  "gem install rspec"
 
-*Criar um arquivo Gemfile e colocar os seguintes comandos:
+* Criar um arquivo Gemfile e colocar os seguintes comandos:
 
 >source 'http://rubygems.org'
 
