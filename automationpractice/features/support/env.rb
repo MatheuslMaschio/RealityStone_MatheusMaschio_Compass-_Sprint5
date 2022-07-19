@@ -13,6 +13,7 @@ ENVIRONMENT_CONFIG = YAML.load_file(File.dirname(__FILE__) + "/environment/#{ENV
 puts ENVIRONMENT_CONFIG
 URL = ENVIRONMENT_CONFIG['url']
 
+#Codigo conseguido com ajuda do Daniel Merib
 Capybara.register_driver :my_chrome do |app|
     options = ::Selenium::WebDriver::Chrome::Options.new
     options.args << '--incognito'
